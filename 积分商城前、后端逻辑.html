@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>积分商城前、后端逻辑</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/积分商城前、后端逻辑/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/积分商城前、后端逻辑/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u465" class="ax_default box_3">
+        <div id="u465_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u466" class="text" style="visibility: visible;">
+          <p><span>一、积分商城前端逻辑流程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u467" class="ax_default flow_shape">
+        <div id="u467_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u468" class="text" style="visibility: visible;">
+          <p><span>加入购物车</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u469" class="ax_default flow_shape">
+        <img id="u469_img" class="img " src="images/会员卡领取、绑定流程_v1_0/u305.png"/>
+        <!-- Unnamed () -->
+        <div id="u470" class="text" style="visibility: visible;">
+          <p><span>判断是否包含实物商品</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u471" class="ax_default flow_shape">
+        <div id="u471_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u472" class="text" style="visibility: visible;">
+          <p><span>订单确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u473" class="ax_default _连接线">
+        <img id="u473_seg0" class="img " src="images/积分商城前、后端逻辑/u473_seg0.png" alt="u473_seg0"/>
+        <img id="u473_seg1" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u473_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u474" class="text" style="visibility: visible;">
+          <p><span>去结算</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u475" class="ax_default _连接线">
+        <img id="u475_seg0" class="img " src="images/积分商城前、后端逻辑/u475_seg0.png" alt="u475_seg0"/>
+        <img id="u475_seg1" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u475_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u476" class="text" style="visibility: visible;">
+          <p><span>提交兑换</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u477" class="ax_default flow_shape">
+        <div id="u477_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u478" class="text" style="visibility: visible;">
+          <p><span>必须选择一</span></p><p><span>种配送方式</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u479" class="ax_default _连接线">
+        <img id="u479_seg0" class="img " src="images/积分商城前、后端逻辑/u479_seg0.png" alt="u479_seg0"/>
+        <img id="u479_seg1" class="img " src="images/积分商城前、后端逻辑/u479_seg1.png" alt="u479_seg1"/>
+        <img id="u479_seg2" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u479_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u480" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u481" class="ax_default flow_shape">
+        <div id="u481_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u482" class="text" style="visibility: visible;">
+          <p><span>无需选择</span></p><p><span>配送方式</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u483" class="ax_default _连接线">
+        <img id="u483_seg0" class="img " src="images/积分商城前、后端逻辑/u483_seg0.png" alt="u483_seg0"/>
+        <img id="u483_seg1" class="img " src="images/积分商城前、后端逻辑/u483_seg1.png" alt="u483_seg1"/>
+        <img id="u483_seg2" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u483_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u484" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u485" class="ax_default flow_shape">
+        <img id="u485_img" class="img " src="images/会员卡领取、绑定流程_v1_0/u305.png"/>
+        <!-- Unnamed () -->
+        <div id="u486" class="text" style="visibility: visible;">
+          <p><span>是否需要运费</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u487" class="ax_default _连接线">
+        <img id="u487_seg0" class="img " src="images/积分商城前、后端逻辑/u487_seg0.png" alt="u487_seg0"/>
+        <img id="u487_seg1" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u487_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u488" class="text" style="visibility: visible;">
+          <p><span>提交兑换</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u489" class="ax_default flow_shape">
+        <div id="u489_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u490" class="text" style="visibility: visible;">
+          <p><span>微信支付</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u491" class="ax_default _连接线">
+        <img id="u491_seg0" class="img " src="images/积分商城前、后端逻辑/u491_seg0.png" alt="u491_seg0"/>
+        <img id="u491_seg1" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u491_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u492" class="text" style="visibility: visible;">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u493" class="ax_default flow_shape">
+        <div id="u493_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u494" class="text" style="visibility: visible;">
+          <p><span>兑换成功，跳转到兑换记录页面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u495" class="ax_default _连接线">
+        <img id="u495_seg0" class="img " src="images/积分商城前、后端逻辑/u495_seg0.png" alt="u495_seg0"/>
+        <img id="u495_seg1" class="img " src="images/积分商城前、后端逻辑/u495_seg1.png" alt="u495_seg1"/>
+        <img id="u495_seg2" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u495_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u496" class="text" style="visibility: visible;">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u497" class="ax_default _连接线">
+        <img id="u497_seg0" class="img " src="images/积分商城前、后端逻辑/u497_seg0.png" alt="u497_seg0"/>
+        <img id="u497_seg1" class="img " src="images/积分商城前、后端逻辑/u497_seg1.png" alt="u497_seg1"/>
+        <img id="u497_seg2" class="img " src="images/会员卡领取、绑定流程_v1_0/u307_seg2.png" alt="u497_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u498" class="text" style="visibility: visible;">
+          <p><span>提交兑换</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u499" class="ax_default _连接线">
+        <img id="u499_seg0" class="img " src="images/积分商城前、后端逻辑/u499_seg0.png" alt="u499_seg0"/>
+        <img id="u499_seg1" class="img " src="images/会员卡领取、绑定流程_v1_0/u303_seg1.png" alt="u499_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u500" class="text" style="visibility: visible;">
+          <p><span>支付完成</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u501" class="ax_default flow_shape">
+        <div id="u501_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u502" class="text" style="visibility: visible;">
+          <p><span>用户在手机端确认收货，如果不确认则由店员在后台操作即可</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u503" class="ax_default _连接线">
+        <img id="u503_seg0" class="img " src="images/积分商城前、后端逻辑/u503_seg0.png" alt="u503_seg0"/>
+        <img id="u503_seg1" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u503_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u504" class="text" style="visibility: visible;">
+          <p><span>自提或快递</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u505" class="ax_default flow_shape">
+        <div id="u505_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u506" class="text" style="visibility: visible;">
+          <p><span>兑换结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u507" class="ax_default _连接线">
+        <img id="u507_seg0" class="img " src="images/积分商城前、后端逻辑/u507_seg0.png" alt="u507_seg0"/>
+        <img id="u507_seg1" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u507_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u508" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u509" class="ax_default box_3">
+        <div id="u509_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u510" class="text" style="visibility: visible;">
+          <p><span>二、积分商城后台逻辑流程</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u511" class="ax_default flow_shape">
+        <div id="u511_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u512" class="text" style="visibility: visible;">
+          <p><span>用户配置了微商城的功能</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u513" class="ax_default flow_shape">
+        <div id="u513_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u514" class="text" style="visibility: visible;">
+          <p><span>在商品管理中维护好实物商品和优惠券商品</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u515" class="ax_default _连接线">
+        <img id="u515_seg0" class="img " src="images/积分商城前、后端逻辑/u515_seg0.png" alt="u515_seg0"/>
+        <img id="u515_seg1" class="img " src="images/积分商城前、后端逻辑/u515_seg1.png" alt="u515_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u516" class="text" style="visibility: visible;">
+          <p><span>商品管理模块</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u517" class="ax_default flow_shape">
+        <div id="u517_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u518" class="text" style="visibility: visible;">
+          <p><span>从已经维护的商品库中进行选择并设置相应的积分额度</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u519" class="ax_default _连接线">
+        <img id="u519_seg0" class="img " src="images/积分商城前、后端逻辑/u487_seg0.png" alt="u519_seg0"/>
+        <img id="u519_seg1" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u519_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u520" class="text" style="visibility: visible;">
+          <p><span>积分商城</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u521" class="ax_default flow_shape">
+        <div id="u521_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u522" class="text" style="visibility: visible;">
+          <p><span>上架成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u523" class="ax_default _连接线">
+        <img id="u523_seg0" class="img " src="images/积分商城前、后端逻辑/u523_seg0.png" alt="u523_seg0"/>
+        <img id="u523_seg1" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u523_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u524" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u525" class="ax_default flow_shape">
+        <div id="u525_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u526" class="text" style="visibility: visible;">
+          <p><span>用户没有配置微商城的功能</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u527" class="ax_default flow_shape">
+        <div id="u527_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u528" class="text" style="visibility: visible;">
+          <p><span>可以自行添加兑换</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u529" class="ax_default _连接线">
+        <img id="u529_seg0" class="img " src="images/积分商城前、后端逻辑/u529_seg0.png" alt="u529_seg0"/>
+        <img id="u529_seg1" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u529_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u530" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u531" class="ax_default _连接线">
+        <img id="u531_seg0" class="img " src="images/积分商城前、后端逻辑/u531_seg0.png" alt="u531_seg0"/>
+        <img id="u531_seg1" class="img " src="images/积分商城前、后端逻辑/u531_seg1.png" alt="u531_seg1"/>
+        <img id="u531_seg2" class="img " src="images/会员卡领取、绑定流程_v1_0/u307_seg2.png" alt="u531_seg2"/>
+        <!-- Unnamed () -->
+        <div id="u532" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u533" class="ax_default _三级标题">
+        <div id="u533_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u534" class="text" style="visibility: visible;">
+          <p><span>微商城和积分商城可以作为插件自由组合，也能互相通联。前期我们程序人员来配置，后期产品</span></p><p><span>化后，支持用户在网页端自行选择购买。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u535" class="ax_default flow_shape">
+        <div id="u535_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u536" class="text" style="visibility: visible;">
+          <p><span>用户前端选择商品</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u537" class="ax_default _连接线">
+        <img id="u537_seg0" class="img " src="images/会员卡领取、绑定流程_v1_0/u309_seg0.png" alt="u537_seg0"/>
+        <img id="u537_seg1" class="img " src="images/三个系统对接说明/u239_seg1.png" alt="u537_seg1"/>
+        <!-- Unnamed () -->
+        <div id="u538" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u539" class="ax_default _连接线">
+        <img id="u539_seg0" class="img " src="images/积分商城前、后端逻辑/u539_seg0.png" alt="u539_seg0"/>
+        <img id="u539_seg1" class="img " src="images/积分商城前、后端逻辑/u539_seg1.png" alt="u539_seg1"/>
+        <img id="u539_seg2" class="img " src="images/积分商城前、后端逻辑/u539_seg2.png" alt="u539_seg2"/>
+        <img id="u539_seg3" class="img " src="images/会员卡领取、绑定流程_v1_0/u303_seg1.png" alt="u539_seg3"/>
+        <!-- Unnamed () -->
+        <div id="u540" class="text" style="visibility: visible;">
+          <p><span>查看详情</span></p><p><span>快捷兑换</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
